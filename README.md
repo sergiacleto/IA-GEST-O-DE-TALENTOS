@@ -1,59 +1,131 @@
-# IA-GESTAO DE TALENTOS - CAPACITAÇÃO E ALOCAÇÃO
-A IA pode personalizar programas de desenvolvimento profissional, identificando as necessidades de capacitação específicas de cada funcionário e sugerindo planos de ação baseados em dados de performance.
+# Projeto IA - Gestão de Talentos
 
-## Criando uma Integração entre Pesquisa de Habilidades e Sistema de Recomendação: Um Guia Inicial
-A integração entre pesquisa de habilidades e sistemas de recomendação de capacitação e alocação é um passo crucial para otimizar o desenvolvimento profissional e a gestão de talentos. Essa integração permite identificar as lacunas de conhecimento dos colaboradores, recomendar programas de treinamento personalizados e alocar as pessoas certas para as tarefas adequadas.
+## Visão Geral
+O projeto "IA Gestão de Talentos" visa desenvolver um Sistema de Recomendação de capacitação e alocação para times de TI, utilizando técnicas de machine learning. Este sistema sugerirá habilidades e competências relevantes para os líderes de equipe, com base nas habilidades dos empregados e nas necessidades dos sistemas e aplicações que eles atendem. O framework CRISP-DM (Cross Industry Standard Process for Data Mining) será utilizado para guiar o desenvolvimento deste projeto.
 
-## Entendendo os Componentes:
+---
 
-## Pesquisa de habilidades: Processo de coleta e análise de dados sobre as habilidades atuais dos colaboradores, incluindo conhecimentos, competências e experiências.
-## Sistema de recomendação: Ferramenta que utiliza algoritmos para sugerir programas de treinamento, projetos ou funções que se alinhem com as necessidades e potencialidades de cada indivíduo.
-## Alocação: Processo de atribuição de tarefas e projetos aos colaboradores com base em suas habilidades e disponibilidade.
+## Fase 1: Entendimento do Negócio
 
-## Etapas para a Integração:
+**Objetivo:** Compreender os requisitos do projeto e os objetivos de negócio.
 
-## Definição dos Objetivos:
+**Descrição do Negócio:**
+- **Nome do Projeto:** IA Gestão de Talentos
+- **Setor:** Tecnologia da Informação
+- **Stakeholders:** Líderes de equipe, gerentes de RH, empregados, executivos.
 
-Clareza: Definir claramente os objetivos da integração, como melhorar a eficiência dos processos de recrutamento e desenvolvimento, aumentar a satisfação dos colaboradores e otimizar a alocação de recursos.
-Alinhamento: Garantir que os objetivos estejam alinhados com a estratégia geral da organização.
-Coleta e Organização dos Dados:
+**Problema de Negócio:**
+- Identificar e preencher lacunas de habilidades dentro dos times de TI.
+- Melhorar a alocação de recursos humanos com base nas habilidades e necessidades dos projetos.
+- Aumentar a eficiência e a satisfação dos empregados através de capacitações direcionadas.
 
-Fontes de dados: Identificar as fontes de dados relevantes, como avaliações de desempenho, testes de habilidades, currículos, sistemas de gestão de aprendizado e plataformas de recrutamento.
-Padronização: Estabelecer um padrão para a coleta e armazenamento dos dados, garantindo a consistência e a qualidade da informação.
-Desenvolvimento do Modelo de Habilidades:
+**Objetivos do Projeto:**
+- Desenvolver um sistema de recomendação para sugerir capacitações relevantes.
+- Automatizar a alocação de talentos com base nas habilidades e competências dos empregados.
+- Criar um ambiente de trabalho mais eficiente e motivador.
 
-Framework: Definir um framework de habilidades que abranja as competências técnicas e comportamentais necessárias para as funções da organização.
-Hierarquia: Estabelecer uma hierarquia entre as habilidades, identificando as habilidades básicas, intermediárias e avançadas.
-Implementação do Sistema de Recomendação:
+**Requisitos de Negócio:**
+- Sistema intuitivo e fácil de usar.
+- Alta precisão nas recomendações de capacitação e alocação.
+- Integração com sistemas de RH existentes.
 
-Algoritmos: Escolher algoritmos de recomendação adequados, como filtragem colaborativa, filtragem baseada em conteúdo ou híbridos.
-Personalização: Configurar o sistema para oferecer recomendações personalizadas com base nas habilidades, interesses e objetivos de carreira de cada colaborador.
-Integração com o Sistema de Gestão de Talentos:
+---
 
-Conexão: Integrar o sistema de recomendação com o sistema de gestão de talentos da organização, permitindo a sincronização de dados e a automatização de processos.
-Fluxo de trabalho: Definir um fluxo de trabalho eficiente para a geração e comunicação das recomendações.
-Avaliação e Refinamento:
+## Fase 2: Entendimento dos Dados
 
-Métricas: Definir métricas para avaliar o desempenho do sistema, como taxa de aceitação das recomendações, impacto no desempenho dos colaboradores e retorno sobre o investimento.
-Melhorias contínuas: Monitorar o sistema e realizar ajustes conforme necessário para otimizar os resultados.
-Tecnologias e Ferramentas:
+**Objetivo:** Coletar e analisar dados relevantes para o projeto.
 
-Plataformas de gestão de talentos: Workday, SAP SuccessFactors, Oracle HCM Cloud
-Ferramentas de análise de dados: Tableau, Power BI, Qlik
-Ferramentas de machine learning: TensorFlow, Scikit-learn
-Plataformas de desenvolvimento de software: Python, R, Java
-Bancos de dados: SQL Server, Oracle, PostgreSQL
-Desafios e Considerações:
+**Fontes de Dados:**
+- Resultados de pesquisas de habilidades dos empregados.
+- Registros de capacitação e certificações.
+- Descrições de funções e requisitos de sistemas e aplicações.
+- Dados demográficos dos empregados (opcional).
 
-Qualidade dos dados: A qualidade dos dados é fundamental para a precisão das recomendações.
-Privacidade: É preciso garantir a privacidade dos dados dos colaboradores.
-Complexidade: A integração pode ser complexa, especialmente em organizações de grande porte.
-Adaptabilidade: O sistema deve ser adaptável às mudanças nas necessidades da organização e dos colaboradores.
+**Qualidade dos Dados:**
+- **Precisão:** Verificar se os dados são exatos e livres de erros.
+- **Completude:** Garantir que todos os campos obrigatórios estejam preenchidos.
+- **Consistência:** Assegurar que os dados sejam consistentes entre diferentes fontes.
 
-## Benefícios da Integração:
+**Análise Inicial dos Dados:**
+- Exploração dos dados para identificar padrões preliminares.
+- Análise descritiva para entender a distribuição das habilidades e necessidades.
+- Identificação de possíveis correlações entre habilidades e desempenho no trabalho.
 
-Aumento da eficiência: Automatização de processos e otimização da alocação de recursos.
-Melhoria do desenvolvimento profissional: Oferecimento de programas de treinamento personalizados.
-Aumento da satisfação dos colaboradores: Oferecimento de oportunidades de crescimento e desenvolvimento.
-Redução de custos: Otimização dos investimentos em treinamento e desenvolvimento.
-Ao implementar uma integração entre pesquisa de habilidades e sistema de recomendação, as organizações podem criar um ambiente de trabalho mais eficiente, onde os colaboradores têm as oportunidades de desenvolvimento necessárias para alcançar seu pleno potencial.
+---
+
+## Fase 3: Preparação dos Dados
+
+**Objetivo:** Preparar os dados para análise e modelagem.
+
+**Limpeza de Dados:**
+- Remoção de duplicatas.
+- Tratamento de valores ausentes.
+- Correção de erros e inconsistências.
+
+**Transformação de Dados:**
+- Normalização dos dados de habilidades (por exemplo, padronizar os níveis de proficiência).
+- Categorização das habilidades e capacitações.
+- Criação de novas variáveis derivadas se necessário.
+
+**Integração de Dados:**
+- Combinação de dados de diferentes fontes em um único dataset unificado.
+- Estruturação dos dados de forma adequada para a modelagem (por exemplo, tabelas relacionais ou dataframes).
+
+---
+
+## Fase 4: Modelagem
+
+**Objetivo:** Desenvolver modelos de machine learning para recomendações.
+
+**Seleção de Modelos:**
+- **Collaborative Filtering:** Para recomendações baseadas em usuários similares.
+- **Content-Based Filtering:** Para recomendações baseadas nas características dos itens (habilidades).
+- **Modelos Híbridos:** Combinação de métodos colaborativos e baseados em conteúdo.
+
+**Treinamento de Modelos:**
+- Divisão dos dados em conjuntos de treino e teste.
+- Treinamento dos modelos selecionados com os dados preparados.
+- Ajuste de hiperparâmetros para otimizar a performance.
+
+**Avaliação de Modelos:**
+- Validação dos modelos utilizando métricas como precisão, recall e F1-score.
+- Comparação de diferentes abordagens para selecionar o modelo mais eficaz.
+
+---
+
+## Fase 5: Avaliação
+
+**Objetivo:** Avaliar a eficácia dos modelos e verificar se atendem aos objetivos de negócio.
+
+**Avaliação de Resultados:**
+- Comparar os resultados dos modelos com as expectativas e requisitos do negócio.
+- Medir a performance do sistema de recomendação em ambiente de teste.
+
+**Testes de Aceitação:**
+- Realização de testes com usuários finais (líderes e outros atores) para garantir a utilidade e a precisão das recomendações.
+- Coleta de feedback para identificar áreas de melhoria.
+
+**Refinamento:**
+- Ajuste dos modelos e parâmetros com base no feedback recebido.
+- Implementação de melhorias para aumentar a precisão e a relevância das recomendações.
+
+---
+
+## Fase 6: Implementação
+
+**Objetivo:** Implementar o sistema de recomendação em um ambiente de produção e garantir sua integração com os processos de negócio.
+
+**Deploy do Modelo:**
+- Implementação do modelo em um ambiente de produção (por exemplo, através de APIs).
+- Configuração de infraestrutura necessária para a execução do modelo (servidores, banco de dados, etc.).
+
+**Integração com Sistemas Existentes:**
+- Garantir que o sistema de recomendação se integre bem com os sistemas de RH e plataformas de TI.
+- Implementação de interfaces de usuário intuitivas para facilitar a utilização pelos líderes e empregados.
+
+**Monitoramento e Manutenção:**
+- Estabelecimento de processos para monitorar a performance do sistema em tempo real.
+- Atualização dos modelos regularmente com novos dados para manter a relevância das recomendações.
+
+---
+
