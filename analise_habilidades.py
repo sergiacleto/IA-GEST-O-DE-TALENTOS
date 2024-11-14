@@ -118,7 +118,7 @@ perfils_habilidades = {
 }
 
 # Carregar dados das respostas dos empregados a partir de um arquivo CSV
-respostas_df = pd.read_csv('respostas_empregados.csv')
+respostas_df = pd.read_csv('https://github.com/sergiacleto/IA_GESTAO_DE_TALENTOS/blob/main/respostas.csv')
 
 # Função para analisar as lacunas de habilidades
 def analisar_lacunas(empregado, habilidades_atual):
